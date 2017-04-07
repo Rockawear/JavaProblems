@@ -15,8 +15,8 @@ public class Mix4 {
             count = count + 1;
             count = count + m4a[x].maybeNew(x);
             x = x + 1;
-
         }
+        System.out.println(count + " " + m4a[1].counter);
     }
     public int maybeNew(int index){
         if (index < 5 ){
